@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1651781321",
+    "project_id": "biotodo-4a966",
+    "storage_bucket": "biotodo-4a966.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1651781321:android:2f4da3b7e1369836a56718",
+        "android_client_info": {
+          "package_name": "com.arcbueno.biotodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1651781321-9qnd846tvtfprn4h29mbsmhn36cbitk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDja7zk8Ru0ftYDUF5V-MvgmUtUKUYy0AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1651781321-9qnd846tvtfprn4h29mbsmhn36cbitk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

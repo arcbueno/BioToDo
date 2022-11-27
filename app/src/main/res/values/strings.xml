@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BioToDo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+<!--    &lt;!&ndash; First screen strings &ndash;&gt;-->
+<!--    <string name="add_fab_text">Add a new to do</string>-->
+<!--    <string name="first_fragment_label">My to do list</string>-->
+
+
+<!--    &lt;!&ndash; First screen strings &ndash;&gt;-->
+<!--    <string name="add_fab_text">Add a new to do</string>-->
+    <string name="first_fragment_label">My to do list</string>
+
+
+    <!--    Login Screen-->
+    <string name="welcome_login">Welcome! Sign in now!</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="button_login">Go!</string>
+
+
+</resources>
