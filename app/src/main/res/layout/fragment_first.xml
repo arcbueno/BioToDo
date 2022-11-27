@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
         <variable
@@ -7,9 +9,7 @@
             type="com.arcbueno.biotodo.login.LoginViewModel" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".login.LoginScreen">
@@ -41,7 +41,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
             app:layout_constraintVertical_bias="0.492"
-            android:text="@{viewModel.userData.email}"
+            android:text="@={viewModel.userData.email}"
             />
 
         <EditText
@@ -59,7 +59,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            android:text="@{viewModel.userData.password}"
+            android:text="@={viewModel.userData.password}"
             />
 
         <Button
@@ -67,6 +67,7 @@
             android:layout_width="210dp"
             android:layout_height="48dp"
             android:text="@string/button_login"
+            android:textColor="#000000"
             app:backgroundTint="@color/teal_700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -74,6 +75,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
             app:layout_constraintVertical_bias="0.136" />
+
+        <Button
+            android:id="@+id/bio_button"
+            android:layout_width="210dp"
+            android:layout_height="48dp"
+            android:text="Bio"
+            app:backgroundTint="@color/teal_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintVertical_bias="0.407" />
 
         <ImageView
             android:id="@+id/imageView"

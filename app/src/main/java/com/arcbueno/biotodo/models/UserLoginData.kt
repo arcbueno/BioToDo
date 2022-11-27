@@ -1,3 +1,3 @@
 package com.arcbueno.biotodo.models
 
-data class UserLoginData(val email: String, val password: String);
+data class UserLoginData(var email: String, var password: String);
